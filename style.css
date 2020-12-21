@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e6e6fa;
+    font-family: Adamina;
+}
+
+header {
+   background-color: #800000;
+   display: flexbox;
+}
+
+.alpha {
+    background-color: maroon;
+    width: 100%;
+    text-align: right;
+}
+
+.main {
+    list-style-type: none;
+    display: inline-flex;
+    font-size: 13px;
+}
+
+li {
+    padding-left: 25px;
+    border-right: solid #ffffff;
+}
