@@ -21,10 +21,26 @@ header {
 .main {
     list-style-type: none;
     display: inline-flex;
-    font-size: 13px;
+    font-size: 16px;
+    padding-right: 30px;
 }
 
 li {
-    padding-left: 25px;
+    padding-left: 45px;
     border-right: solid #ffffff;
+    border-width: 1px;
+}
+
+li a {
+    text-decoration: none;
+    color: #fff5ee;
+}
+
+.material-icons {
+    color: #fff5ee;
+}
+
+div {
+    background-color: #dc143c;
+    padding-top: 0;
 }
